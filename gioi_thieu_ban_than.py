@@ -7,9 +7,8 @@ tieude1 = Text(header_box, text="Tên: Thái An",size=30, color="#0082d9")
 tieude2 = Text(header_box,text="Tuổi: 11",size=30, color="#0082d9")
 tieude3 = Text(header_box,text="Giới tính: Nữ", size=30, color="#0082d9")
 tieude4 = Text(header_box, text="Trường: THCS Lý Thái Tổ",size=30, color="#0082d9")
-hinhanh = Picture(header_box, image="meomeo.gif", height=250)
+hinhanh = Picture(header_box, image="meomeo.gif", height=400)
 
 tieude5 = Text(header_box, text="Xin chào, tôi tên là An. Đây là chương trình giới thiệu về tôi.")
 
 cuaso.display()
-
