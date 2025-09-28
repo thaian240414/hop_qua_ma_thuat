@@ -1,12 +1,12 @@
 from guizero import App, Text, Box, Picture
 
-cuaso = App(title="Giới thiệu bản thân", width=1000, height=700)
+cuaso = App(title="Giới thiệu bản thân", width=1000, height=700,bg="#ffd6ef")
+header_box = Box(cuaso, align="middle",width="fill", border=True)
 
-
-tieude1 = Text(cuaso, text="Tên: Thái An",color="#fffa73", size=15)
-tieude2 = Text(cuaso, text="Tuổi: 11",color="#fffa73", size=15)
-tieude3 = Text(cuaso, text="Giới tính: Nữ", color="#fffa73", size=15)
-tieude4 = Text(cuaso, text="Trường: THCS Lý Thái Tổ", color="#fffa73", size=15)
-hinhanh = Picture(cuaso, image="meomeo.gif")
+tieude1 = Text(header_box, text="Tên: Thái An",size=30, color="#0082d9")
+tieude2 = Text(header_box,text="Tuổi: 11",size=30, color="#0082d9")
+tieude3 = Text(header_box,text="Giới tính: Nữ", size=30, color="#0082d9")
+tieude4 = Text(header_box, text="Trường: THCS Lý Thái Tổ",size=30, color="#0082d9")
+hinhanh = Picture(header_box, image="meomeo.gif")
 
 cuaso.display()
